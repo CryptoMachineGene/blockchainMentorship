@@ -16,6 +16,34 @@ The project is designed to help me master foundational Web3 concepts while devel
 
 ---
 
+## 🧠 Overview
+
+This repository tracks my milestone-based learning through a blockchain developer mentorship program. It follows a step-by-step approach to creating, testing, and deploying Ethereum smart contracts using Solidity and Hardhat.
+
+Each commit reflects a core topic or task, serving as both a progress journal and a modular smart contract reference.
+
+---
+
+## 📌 Commit Milestones
+
+1. **Create Project**  
+   Initialized the Hardhat project with basic folder structure (`/contracts`, `/scripts`, `/test`, `/src`, `/public`). Installed necessary dependencies.
+
+2. *(Skipped in commit history)*
+
+3. **Testing Contracts**  
+   Developed initial unit tests for smart contracts using JavaScript and the Hardhat test environment. Created private/public key pair for testing deployments.
+
+4–6. *(Reserved for additional contract testing or not explicitly labeled.)*
+
+7. **Token Transfer Delegation**  
+   Implemented logic for delegated token transfers, allowing third parties to move tokens on behalf of a user (similar to `approve()` + `transferFrom()` pattern).
+
+8. **Token Deployment**  
+   Finalized contract deployment scripts. Deployed the ERC-20 token to a testnet using Hardhat. Flattened the contract for later verification using `TokenFlatten.sol`.
+
+---
+
 ## 📁 Repo Structure
 
 - `/contracts`: Solidity smart contracts (tokens, delegation logic, etc.)
