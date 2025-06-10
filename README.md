@@ -23,41 +23,42 @@ Each commit reflects a core topic or task, serving as both a development journal
 
 ## 📌 Commit Milestones
 
-1. **Create Project**  
-   Initialized the Hardhat project with core folder structure (`/contracts`, `/scripts`, `/test`, `/src`, `/public`). Installed dependencies.
+- **Create Project**  
+  Initialized the Hardhat project with core folder structure (`/contracts`, `/scripts`, `/test`, `/src`, `/public`). Installed dependencies.
 
-2. *(Skipped in commit history)*
+- *(Skipped in commit history)*
 
-3. **Testing Contracts**  
-   Created private/public key pairs. Wrote and ran smart contract tests using Hardhat’s testing suite (Mocha/Chai).
+- **Testing Contracts**  
+  Created private/public key pairs. Wrote and ran smart contract tests using Hardhat’s testing suite (Mocha/Chai).
 
-4–6. *(Reserved or unlabeled milestones)*
+- **4–6**  
+  *(Reserved or unlabeled milestones)*
 
-7. **Token Transfer Delegation**  
-   Implemented logic for delegated token transfers (e.g., `approve()` and `transferFrom()` pattern).
+- **Token Transfer Delegation**  
+  Implemented logic for delegated token transfers (e.g., `approve()` and `transferFrom()` pattern).
 
-8. **Token Deployment**  
-   Finalized deployment script and deployed an ERC-20 token contract to a testnet. Created `TokenFlatten.sol` for verification.
+- **Token Deployment**  
+  Finalized deployment script and deployed an ERC-20 token contract to a testnet. Created `TokenFlatten.sol` for verification.
 
 ---
 
 ## 📁 Repo Structure
 
-- `/contracts` – Solidity smart contracts (token logic, delegation)
-- `/scripts` – Deployment and interaction scripts
-- `/test` – JavaScript-based unit tests
-- `/src`, `/public` – Basic frontend structure
+- `/contracts` – Solidity smart contracts (token logic, delegation)  
+- `/scripts` – Deployment and interaction scripts  
+- `/test` – JavaScript-based unit tests  
+- `/src`, `/public` – Basic frontend structure  
 - `TokenFlatten.sol` – Flattened contract for verification/auditing
 
 ---
 
 ## 🧪 Topics Covered
 
-- ERC-20 Token Creation
-- Token Transfer & Allowance Logic
-- Delegated Transfer Authorization
-- Private/Public Key Management
-- Smart Contract Testing (Mocha/Chai)
+- ERC-20 Token Creation  
+- Token Transfer & Allowance Logic  
+- Delegated Transfer Authorization  
+- Private/Public Key Management  
+- Smart Contract Testing (Mocha/Chai)  
 - Hardhat Deployment Workflow
 
 ---
@@ -66,17 +67,16 @@ Each commit reflects a core topic or task, serving as both a development journal
 
 This repo will continue to evolve as I explore more advanced topics, including:
 
-- Contract inheritance & abstraction
-- Event logging
-- Upgradable smart contracts
+- Contract inheritance & abstraction  
+- Event logging  
+- Upgradable smart contracts  
 - Security best practices & audits
 
 ---
 
 ## 🔗 About Me
 
-I'm a U.S. Army veteran and blockchain developer in training, currently completing the [Dapp University Blockchain Developer Bootcamp](https://www.dappuniversity.com/bootcamp) and Blockchain Developer Mentorship. I co-founded [New World Cryptos](https://newworldcryptos.io), a blockchain research journal and PMA education hub.
+I'm a U.S. Army veteran and blockchain developer in training, currently completing the **Dapp University Blockchain Developer Bootcamp** and **Blockchain Developer Mentorship**. I co-founded **[New World Cryptos](https://newworldcryptos.io)**, a blockchain research journal and PMA education hub.
 
 📡 Follow my journey on [X](https://x.com/CryptoMachineG)  
 📖 Explore my research & dev logs at [New World Cryptos Journal](https://newworldcryptos.io)
-
